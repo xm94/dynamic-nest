@@ -7,14 +7,6 @@ export interface Student {
     email: string;
 }
 
-let fakeStudents: Student[] = [
-    {id:1,name:"Name 1",email:"student1@epl.com"},
-    {id:2,name:"Name 2",email:"student2@epl.com"},
-    {id:3,name:"Name 3",email:"student3@epl.com"},
-    {id:4,name:"Name 4",email:"student4@epl.com"}
-];
-
-
 interface StudentsState {
     students: Student [];
     currentStudent: Student | null;
